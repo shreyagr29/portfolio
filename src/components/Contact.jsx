@@ -27,7 +27,7 @@ const Contact = () => {
                     </div>
                     <div>
                         <p className="text-sm text-gray-400 uppercase tracking-widest font-bold">Email</p>
-                        <a href="mailto:contact@johndoe.dev" className="text-lg font-medium hover:text-portfolio-gold transition-colors">contact@johndoe.dev</a>
+                        <a href="mailto:contact@shreyagrawal.com" className="text-lg font-medium hover:text-portfolio-gold transition-colors">contact@shreyagrawal.com</a>
                     </div>
                 </div>
                 
@@ -37,7 +37,7 @@ const Contact = () => {
                     </div>
                     <div>
                         <p className="text-sm text-gray-400 uppercase tracking-widest font-bold">Phone</p>
-                        <p className="text-lg font-medium">+1 (555) 123-4567</p>
+                        <p className="text-lg font-medium">+91-8755769088</p>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                     <div>
                         <p className="text-sm text-gray-400 uppercase tracking-widest font-bold">Location</p>
-                        <p className="text-lg font-medium">San Francisco, CA</p>
+                        <p className="text-lg font-medium">Noida, India</p>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ const Contact = () => {
       
       {/* Footer Strip */}
       <div className="border-t border-white/10 py-8 text-center text-gray-500 text-sm">
-        <p>&copy; {new Date().getFullYear()} John Doe. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Shrey Agrawal. All rights reserved.</p>
       </div>
     </SectionWrapper>
   );

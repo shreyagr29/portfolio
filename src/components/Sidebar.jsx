@@ -39,8 +39,8 @@ const Sidebar = () => {
            </div>
            {/* <img src="/path/to/image.jpg" className="w-full h-full object-cover" /> */}
         </div>
-        <h2 className="text-2xl font-black text-portfolio-dark dark:text-portfolio-light tracking-tighter uppercase text-center leading-none mb-2 transition-colors duration-300">
-          John Doe
+        <h2 className="text-2xl font-black text-portfolio-dark dark:text-portfolio-light tracking-tighter text-center leading-none mb-2 transition-colors duration-300">
+          Shrey Agrawal
         </h2>
         <span className="bg-portfolio-dark dark:bg-portfolio-light text-portfolio-gold dark:text-portfolio-dark px-3 py-1 text-xs font-bold rounded-full uppercase tracking-widest transition-colors duration-300">
           Developer
@@ -89,7 +89,7 @@ const Sidebar = () => {
     <>
       {/* Mobile Header Bar */}
       <div className="md:hidden fixed top-0 left-0 right-0 h-16 bg-white dark:bg-portfolio-dark z-50 flex items-center justify-between px-6 shadow-sm dark:shadow-gray-800 transition-colors duration-300">
-        <span className="font-black text-xl tracking-tighter text-portfolio-dark dark:text-portfolio-light">JD</span>
+        <span className="font-black text-xl tracking-tighter text-portfolio-dark dark:text-portfolio-light">SA</span>
         <div className="flex items-center gap-4">
            {/* Visible on mobile header too for easy access */}
            <ThemeToggle />

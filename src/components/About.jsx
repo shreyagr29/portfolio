@@ -7,7 +7,7 @@ import { CheckCircle2 } from 'lucide-react';
 const About = () => {
   const highlights = [
     "Certified Full Stack Developer",
-    "5+ Years of Industry Experience",
+    "Fresher & Enthusiastic Learner",
     "Open Source Contributor",
     "Tech Speaker & Mentor"
   ];
