@@ -35,11 +35,7 @@ const Sidebar = () => {
       {/* Profile Header */}
       <div className="flex flex-col items-center mb-12">
         <div className="w-32 h-32 rounded-full bg-white dark:bg-gray-800 mb-6 border-4 border-white dark:border-gray-700 shadow-lg overflow-hidden relative transition-colors duration-300">
-           {/* Placeholder for user image - User should replace this */}
-           <div className="w-full h-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-400 dark:text-gray-500">
-             <User size={48} />
-           </div>
-           {/* <img src="/path/to/image.jpg" className="w-full h-full object-cover" /> */}
+           <img src="/profile.png" alt="Shrey Agrawal" className="w-full h-full object-cover" />
         </div>
         <h2 className="text-2xl font-black text-portfolio-dark dark:text-portfolio-light tracking-tighter text-center leading-none mb-2 transition-colors duration-300">
           Shrey Agrawal
@@ -75,8 +71,8 @@ const Sidebar = () => {
       {/* Social Footer */}
       <div className="mt-auto flex flex-col gap-4">
         <div className="flex justify-center gap-4 pt-8 border-t border-black/10 dark:border-white/10">
-          <a href="#" className="text-portfolio-dark/60 dark:text-portfolio-light/60 hover:text-portfolio-dark dark:hover:text-portfolio-light transition-colors"><Github size={20} /></a>
-          <a href="#" className="text-portfolio-dark/60 dark:text-portfolio-light/60 hover:text-portfolio-dark dark:hover:text-portfolio-light transition-colors"><Linkedin size={20} /></a>
+          <a href="https://github.com/shrey29ag" target="_blank" rel="noopener noreferrer" className="text-portfolio-dark/60 dark:text-portfolio-light/60 hover:text-portfolio-dark dark:hover:text-portfolio-light transition-colors"><Github size={20} /></a>
+          <a href="https://www.linkedin.com/in/shrey-agrawal-43966b257/" target="_blank" rel="noopener noreferrer" className="text-portfolio-dark/60 dark:text-portfolio-light/60 hover:text-portfolio-dark dark:hover:text-portfolio-light transition-colors"><Linkedin size={20} /></a>
           <a href="#" className="text-portfolio-dark/60 dark:text-portfolio-light/60 hover:text-portfolio-dark dark:hover:text-portfolio-light transition-colors"><Twitter size={20} /></a>
         </div>
         
@@ -100,8 +96,7 @@ const Sidebar = () => {
           className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-500 overflow-hidden border-2 border-portfolio-gold cursor-pointer hover:scale-105 transition-transform"
           aria-label="Open Menu"
         >
-          <User size={24} />
-          {/* <img src="/path/to/image.jpg" className="w-full h-full object-cover" /> */}
+          <img src="/profile.png" alt="User" className="w-full h-full object-cover" />
         </button>
 
         <div className="flex items-center gap-4">

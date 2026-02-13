@@ -100,9 +100,9 @@ const Hero = () => {
              <Link to="projects" smooth={true} offset={-50} className="px-6 md:px-8 py-3 md:py-4 bg-portfolio-gold text-portfolio-dark font-black tracking-wider rounded shadow-[4px_4px_0px_0px_rgba(33,33,33,1)] hover:shadow-[2px_2px_0px_0px_rgba(33,33,33,1)] dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,0.5)] dark:hover:shadow-[2px_2px_0px_0px_rgba(255,255,255,0.5)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center gap-3 cursor-pointer text-sm md:text-base">
                 MY WORK <ArrowRight size={18} className="md:w-5 md:h-5" />
              </Link>
-             <button className="px-6 md:px-8 py-3 md:py-4 border-2 border-portfolio-dark dark:border-portfolio-light text-portfolio-dark dark:text-portfolio-light font-bold tracking-wider rounded hover:bg-portfolio-dark hover:text-white dark:hover:bg-portfolio-light dark:hover:text-portfolio-dark transition-all flex items-center gap-3 text-sm md:text-base">
+             <a href="https://drive.google.com/file/d/1kgJ214w-5zsuUNTFspTmVkuQqDQLgWOG/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="px-6 md:px-8 py-3 md:py-4 border-2 border-portfolio-dark dark:border-portfolio-light text-portfolio-dark dark:text-portfolio-light font-bold tracking-wider rounded hover:bg-portfolio-dark hover:text-white dark:hover:bg-portfolio-light dark:hover:text-portfolio-dark transition-all flex items-center gap-3 text-sm md:text-base cursor-pointer">
                 RESUME <Download size={18} className="md:w-5 md:h-5" />
-             </button>
+             </a>
           </div>
         </motion.div>
 
@@ -117,8 +117,8 @@ const Hero = () => {
            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:top-5 lg:left-auto lg:translate-x-0 lg:translate-y-0 lg:-right-5 w-[320px] h-[320px] md:w-[400px] md:h-[400px] lg:w-[320px] lg:h-[320px] xl:w-[450px] xl:h-[450px] border-2 border-portfolio-gold rounded-full -z-10 bg-portfolio-gold/5" />
            
            {/* Image Frame */}
-           <div className="w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[300px] lg:h-[300px] xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden border-[8px] md:border-[10px] border-white dark:border-gray-800 shadow-2xl relative z-10 grayscale hover:grayscale-0 transition-all duration-700">
-               <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" alt="Hero" className="w-full h-full object-cover scale-110" />
+            <div className="w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[300px] lg:h-[300px] xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden border-[8px] md:border-[10px] border-white dark:border-gray-800 shadow-2xl relative z-10 hover:scale-105 transition-all duration-700 group">
+               <img src="/profile.png" alt="Hero" className="w-full h-full object-cover grayscale brightness-75 contrast-125 group-hover:grayscale-0 group-hover:brightness-100 group-hover:contrast-100 transition-all duration-700" />
            </div>
 
            {/* Stats Cards - Hidden on very small screens, responsive mostly */}

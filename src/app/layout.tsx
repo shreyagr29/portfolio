@@ -11,6 +11,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Shrey Agrawal | Full Stack Developer",
   description: "Portfolio of Shrey Agrawal, a Full Stack Developer specializing in MERN stack.",
+  icons: {
+    icon: [
+      { url: '/profile.png', type: 'image/png' },
+    ],
+    shortcut: ['/profile.png'],
+    apple: [
+      { url: '/profile.png' },
+    ],
+  },
 };
 
 export default function RootLayout({
